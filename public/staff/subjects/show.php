@@ -10,6 +10,7 @@ $id = $_GET['id'] ?? 1;
 echo h($id);
 
 ?>
+<br />
 
 <a href="show.php?name=<?php echo u('John Doe'); ?>">Link</a><br />
 <a href="show.php?company=<?php echo u('Widgets&More'); ?>">Link</a><br />
