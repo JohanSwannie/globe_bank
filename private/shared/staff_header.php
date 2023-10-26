@@ -12,12 +12,14 @@
   </head>
 
   <body>
-    <header>
-      <h1>GBI Staff Area</h1>
-    </header>
-
-    <navigation>
-      <ul>
-        <li><a href="<?php echo url_for('/staff/index.php'); ?>">Menu</a></li>
-      </ul>
-    </navigation>
+    <div class="container">
+      <header>
+        <h1>GBI Staff Area</h1>
+      </header>
+  
+      <navigation>
+        <ul>
+          <li><a href="<?php echo url_for('/staff/index.php'); ?>">Menu</a></li>
+        </ul>
+      </navigation>
+    </div>
