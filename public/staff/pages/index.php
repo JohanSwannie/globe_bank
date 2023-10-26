@@ -10,6 +10,7 @@
 ?>
 
 <?php $page_title = 'Pages'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
