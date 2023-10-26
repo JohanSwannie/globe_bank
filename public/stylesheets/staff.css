@@ -16,8 +16,13 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 920px;
+  margin: auto;
+}
+
 header {
-  width: 980px;
+  width: 920px;
   height: 40px;
   margin: 0 0 10px 0;
   padding: 0;
@@ -56,16 +61,18 @@ navigation ul li {
   width: 920px;
   min-height: 500px;
   padding: 0 30px;
+  margin: auto;
 }
 
 footer {
-  width: 940px;
+  width: 920px;
   height: 2rem;
   margin: 0 0 10px 0;
   padding: 10px 20px;
   background: #0055dd;
   color: white;
   text-align: center;
+  margin: auto;
 }
 
 /* Actions */
