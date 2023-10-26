@@ -122,6 +122,12 @@ dd {
   margin-left: 1em;
 }
 
+input[type="submit"] {
+  background-color: navy;
+  color: #fff;
+  padding: 0.4rem;
+}
+
 #operations {
   clear: both;
   margin: 1em 0 1em 75px;
