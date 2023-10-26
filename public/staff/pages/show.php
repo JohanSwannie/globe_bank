@@ -6,6 +6,7 @@ $id = $_GET['id'] ?? '1'; // PHP > 7.0
 ?>
 
 <?php $page_title = 'Show Page'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
