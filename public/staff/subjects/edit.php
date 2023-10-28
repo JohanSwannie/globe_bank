@@ -5,6 +5,7 @@ require_once('../../../private/initialize.php');
 if(!isset($_GET['id'])) {
   redirect_to(url_for('/staff/subjects/index.php'));
 }
+
 $id = $_GET['id'];
 $menu_name = '';
 $position = '';
@@ -27,6 +28,7 @@ if(is_post_request()) {
 ?>
 
 <?php $page_title = 'Edit Subject'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
