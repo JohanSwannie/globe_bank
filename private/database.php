@@ -15,7 +15,7 @@
   }
 
   function confirm_db_connect() {
-    if(mysqli_connect_errno()) {
+    if(mysqli_connect_error()) {
       $msg = "Database connection failed: ";
       $msg .= mysqli_connect_error();
       $msg .= " (" . mysqli_connect_errno() . ")";
