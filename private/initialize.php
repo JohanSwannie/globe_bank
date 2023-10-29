@@ -23,7 +23,7 @@
 
   require_once('database.php');
 
-  require_once('sql_query_functions.php');
+  require_once('sql_operations_functions.php');
 
   $db = db_connect();
 
