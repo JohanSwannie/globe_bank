@@ -7,16 +7,18 @@ if(!isset($_GET['id'])) {
 }
 $id = $_GET['id'];
 
-$subject = find_subject_by_id($id);
-
 if(is_post_request()) {
 
+  $result = delete_subject($id);
+  redirect_to(url_for('/staff/subjects/index.php'));
+
+} else {
+  $subject = find_subject_by_id($id);
 }
 
 ?>
 
 <?php $page_title = 'Delete Subject'; ?>
-
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
