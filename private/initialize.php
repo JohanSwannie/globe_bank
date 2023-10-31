@@ -25,6 +25,8 @@
 
   require_once('sql_operations_functions.php');
 
+  require_once('validation_functions.php');
+
   $db = db_connect();
 
 ?>
