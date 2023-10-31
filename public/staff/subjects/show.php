@@ -9,6 +9,7 @@ $subject = find_subject_by_id($id);
 ?>
 
 <?php $page_title = 'Show Subject'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
@@ -37,3 +38,4 @@ $subject = find_subject_by_id($id);
   </div>
 
 </div>
+
