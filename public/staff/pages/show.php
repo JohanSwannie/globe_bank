@@ -9,6 +9,7 @@ $page = find_page_by_id($id);
 ?>
 
 <?php $page_title = 'Show Page'; ?>
+
 <?php include(SHARED_PATH . '/staff_header.php'); ?>
 
 <div id="content">
